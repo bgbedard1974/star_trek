@@ -1,0 +1,15 @@
+
+<table>
+<tr>
+{% for column in columns %}
+<th valign="top">{{ headers[column] }}</th>
+{% endfor %}
+</tr>
+{% for row in data %}
+<tr>
+{% for column in columns %}
+<td valign="top">{{ row[column]|raw }}</td>
+{% endfor %}
+</tr>
+{% endfor %}
+</table>

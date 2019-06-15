@@ -1,0 +1,5 @@
+1,Star Trek,TOS,NBC,1966,1969,3
+2,Star Trek: The Next Generation,TNG,Syndicated,1987,1994,7
+3,Star Trek: Deep Space Nine,DS9,Syndicated,1993,1999,7
+4,Star Trek: Voyager,VOY,UPN,1995,2001,7
+5,Star Trek: Enterprise,ENT,UPN,2001,2005,4

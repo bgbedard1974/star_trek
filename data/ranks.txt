@@ -1,0 +1,8 @@
+1,Captain
+2,Commander
+3,Lt. Commander
+4,Lieutenant
+5,Ensign
+6,Chief Warrant Officer
+7,Major
+8,Constable

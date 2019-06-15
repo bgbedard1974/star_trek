@@ -1,0 +1,21 @@
+
+<table>
+<tr>
+<th valign="top">NAME</th>
+<th valign="top">RANK</th>
+<th valign="top">POST</th>
+<th valign="top">SPECIES</th>
+<th valign="top">ACTOR</th>
+<th valign="top">YEARS</th>
+</tr>
+{% for row in characters %}
+<tr>
+<td valign="top"><a href="/trek_new/character/{{ row.id }}">{{ name_formatter_simple(row.name, row.species) }}</a></td>
+<td valign="top">{{ row.rank }}</td>
+<td valign="top">{{ row.post }}</td>
+<td valign="top">{{ row.species }}</td>
+<td valign="top">{{ name_formatter(row.actor) }}</td>
+<td valign="top">{{ row.years }}</td>
+</tr>
+{% endfor %}
+</table>

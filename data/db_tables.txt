@@ -1,0 +1,38 @@
+TREK DB
+
+SERIES
+------
+id (int, index, auto inc)
+title (varchar 255)
+short_code (varchar 16)
+network (varchar 16)
+start_date (date)
+end_date (date)
+seasons (int)
+
+NAMES
+-----
+id (int, index, auto inc)
+first (varchar 64)
+nick (varchar 64)
+middle (varchar 64)
+last (varchar 64)
+suffix (varchar 64)
+
+KEYWORDS
+--------
+id (int, index, auto inc)
+type (enum: rank, post, species)
+value (varchar 64)
+
+CHARACTERS
+----------
+id (int, index, auto inc)
+series_id (int foreign)
+name_id (int foreign)
+actor_id (int foreign)
+keyword_rank_id (int foreign)
+keyword_post_id (int foreign)
+keyword_species_id (int foreign)
+years (int)
+

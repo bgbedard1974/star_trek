@@ -1,0 +1,15 @@
+1,Human
+2,Vulcan/Human
+3,Android
+4,Klingon
+5,Human/Betazoid
+6,Trill
+7,Bajoran
+8,Polymorph
+9,Ferengi
+10,Vulcan
+11,Human/Klingon
+12,Hologram
+13,Talaxian
+14,Ocampan
+15,Denobulan

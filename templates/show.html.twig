@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+<strong>NAME</strong>: {{ show.name }}<br/>
+<strong>CODE</strong>: {{ show.code }}<br/>
+<strong>NETWORK</strong>: {{ show.network }}<br/>
+<strong>SEASONS</strong>: {{ show.seasons }} ({{ show.start_year }} - {{ show.end_year }})<br/>
+
+<p><strong>CAST</strong></p>
+
+{% include 'characters_table.html.twig' with {'characters': cast} %}
+
+<p>
+{% if show.id > 1 %}
+[<a href="/trek_new/show/{{ show.id - 1 }}">PREV</a>]
+{% endif %}
+{% if show.id < max_shows %}
+[<a href="/trek_new/show/{{ show.id + 1 }}">NEXT</a>]
+{% endif %}
+</p>
+{% endblock %}

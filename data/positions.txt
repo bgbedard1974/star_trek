@@ -1,0 +1,20 @@
+1,Commanding Officer
+2,Science Officer
+3,Ship's Surgeon
+4,Engineering Officer
+5,Helmsman
+6,Communications Officer
+7,Navigator
+8,Executive Officer
+9,Operations Officer
+10,Security Officer
+11,Medical Officer
+12,Ship's Counselor
+13,Flight Control Officer
+14,First Officer
+15,Strategic Officer
+16,Station Counselor
+17,Chef
+18,Nurse
+19,Astrometrics Technician
+20,Tactical Officer

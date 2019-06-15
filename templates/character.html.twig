@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+<strong>NAME</strong>: {{ name_formatter(name, species) }}<br/>
+<strong>POST</strong>: {{ post }}<br/>
+<strong>RANK</strong>: {{ rank }}<br/>
+<strong>SPECIES</strong>: {{ species }}<br/>
+<strong>YEARS</strong>: {{ years }}<br/>
+<strong>ACTOR</strong>: {{ name_formatter(actor) }}<br/>
+
+<p>
+{% if id > 1 %}
+[<a href="/trek_new/character/{{ id - 1 }}">PREV</a>]
+{% endif %}
+{% if id < max_characters %}
+[<a href="/trek_new/character/{{ id + 1 }}">NEXT</a>]
+{% endif %}
+</p>
+{% endblock %}

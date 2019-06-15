@@ -1,0 +1,29 @@
+#Site Info
+base-path|/trek_new
+title|Star Trek Database
+menu|Home;/trek_new,Characters;/trek_new/characters
+
+#Database
+hostname|localhost
+name|trek
+user|trek_user
+password|deep6nine
+
+#Factories
+keywords|Factory\Keyword
+names|Factory\Name
+shows|Factory\Show
+characters|Factory\Character
+
+#Repositories
+keywords|Repository\Keywords
+names|Repository\Names
+shows|Repository\Shows
+characters|Repository\Characters
+
+#Controllers
+error|Controller\Error
+index|Controller\Index
+show|Controller\Show
+character|Controller\Character
+characters|Controller\Characters

@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+<p><strong>Shows</strong></p>
+
+<ul>
+{% for show in shows %}
+    <li>{{ show.linked_name|raw }} ({{ show.start_year }} - {{ show.end_year }})</li>
+{% endfor %}
+</ul>
+
+{% endblock %}
+

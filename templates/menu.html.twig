@@ -1,0 +1,10 @@
+
+<p>
+{% for item in items %}
+{% if not loop.first %}
+&nbsp;&nbsp;|&nbsp;&nbsp;
+{% endif %}
+<a href="{{ item.url }}">{{ item.text}}</a>
+{% endfor %}
+</p>
+

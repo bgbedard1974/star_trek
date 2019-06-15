@@ -1,0 +1,44 @@
+1,rank,Captain
+2,rank,Commander
+3,rank,Lt. Commander
+4,rank,Lieutenant
+5,rank,Ensign
+6,rank,Chief Warrant Officer
+7,rank,Major
+8,rank,Constable
+9,post,Commanding Officer
+10,post,Science Officer
+11,post,Ship's Surgeon
+12,post,Engineering Officer
+13,post,Helmsman
+14,post,Communications Officer
+15,post,Navigator
+16,post,Executive Officer
+17,post,Operations Officer
+18,post,Security Officer
+19,post,Medical Officer
+20,post,Ship's Counselor
+21,post,Flight Control Officer
+22,post,First Officer
+23,post,Strategic Officer
+24,post,Station Counselor
+25,post,Chef
+26,post,Nurse
+27,post,Astrometrics Technician
+28,post,Tactical Officer
+29,species,Human
+30,species,Vulcan/Human
+31,species,Android
+32,species,Klingon
+33,species,Human/Betazoid
+34,species,Trill
+35,species,Bajoran
+36,species,Polymorph
+37,species,Ferengi
+38,species,Vulcan
+39,species,Human/Klingon
+40,species,Hologram
+41,species,Talaxian
+42,species,Ocampan
+43,species,Denobulan
+44,species,Human/Borg

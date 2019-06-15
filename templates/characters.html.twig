@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+<p><strong>All Characters</strong></p>
+
+{% include 'characters_table.html.twig' with {'characters' : characters} %}
+{% endblock %}

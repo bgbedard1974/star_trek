@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<link rel="stylesheet" type="text/css" href="/trek_new/style.css"/>
+	</head>
+	<body>
+		<div id="page">
+			<div id="header">
+				<h2>{{ page_title }}</h2>
+			</div>
+			<div id="menu">
+				{% include 'menu.html.twig' with {'items' : menu} %}
+			</div>
+			<div id="content">
+			{% block content %}
+			{% endblock %}
+			</div>
+		</div>
+	</body>
+</html>

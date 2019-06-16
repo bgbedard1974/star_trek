@@ -36,7 +36,7 @@ class PageLink
 	
 	public function render()
 	{
-		$url = '/trek_new';
+		$url = 'projects/star_trek';
 		if ($this->controller !== null) {
 			$url .= '/' . $this->controller;
 		}

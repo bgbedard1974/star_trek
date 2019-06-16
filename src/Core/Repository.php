@@ -41,7 +41,7 @@ class Repository
 	
 	public function size()
 	{
-		$sql = sprintf("SELECT COUNT(*) AS rows FROM %s", $this->table);
+		$sql = sprintf("SELECT COUNT(*) AS 'rows' FROM %s", $this->table);
 		$results = $this->database->query($sql);
 		return $results[0]['rows'];
 	}

@@ -12,10 +12,10 @@
 
 <p>
 {% if show.id > 1 %}
-[<a href="/trek_new/show/{{ show.id - 1 }}">PREV</a>]
+[<a href="/projects/star_trek/show/{{ show.id - 1 }}">PREV</a>]
 {% endif %}
 {% if show.id < max_shows %}
-[<a href="/trek_new/show/{{ show.id + 1 }}">NEXT</a>]
+[<a href="/projects/star_trek/show/{{ show.id + 1 }}">NEXT</a>]
 {% endif %}
 </p>
 {% endblock %}

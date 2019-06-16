@@ -1,13 +1,13 @@
 #Site Info
-base-path|/trek_new
+base-path|/projects/star_trek
 title|Star Trek Database
-menu|Home;/trek_new,Characters;/trek_new/characters
+menu|Home;/projects/star_trek,Characters;/projects/star_trek/characters
 
 #Database
 hostname|localhost
-name|trek
-user|trek_user
-password|deep6nine
+name|star_trek
+user|star_trek
+password|webb99devv
 
 #Factories
 keywords|Factory\Keyword

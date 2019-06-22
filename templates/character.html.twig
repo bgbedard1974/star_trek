@@ -10,10 +10,11 @@
 
 <p>
 {% if id > 1 %}
-[<a href="/projects/star_trek/character/{{ id - 1 }}">PREV</a>]
+[<a href="{{ base_path }}/character/{{ id - 1 }}">PREV</a>]
 {% endif %}
 {% if id < max_characters %}
-[<a href="/projects/star_trek/character/{{ id + 1 }}">NEXT</a>]
+[<a href="{{ base_path }}/character/{{ id + 1 }}">NEXT</a>]
 {% endif %}
 </p>
+
 {% endblock %}

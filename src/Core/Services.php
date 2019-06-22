@@ -85,6 +85,7 @@ class Services
 		$site_info = $this->config->getSiteInfo();
 		$this->twig->addGlobal('title', $site_info['title']);
 		$this->twig->addGlobal('page_title', $site_info['title']);
+                $this->twig->addGlobal('base_path', $site_info['base-path']);
 		$repositories = $this->repositories->getData();
 		foreach ($repositories as $key => $repository) {
 			$n = $repository->size();
